@@ -25,8 +25,12 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          # Sync generated site from landing/site/public to repo root
-          rsync -av --delete landing/site/public/ . --exclude .git --exclude .github
+          # Sync generated site from landing/site/public to repo root, preserving source
+          rsync -av --delete \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='landing/' \
+            landing/site/public/ .
           touch .nojekyll
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
