@@ -20,11 +20,13 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build site
-        run: hugo --source landing/site --destination public --gc --minify
+        # Build using default publishDir (landing/site/public)
+        run: hugo --source landing/site --gc --minify
 
       - name: Deploy to GitHub Pages
         run: |
-          rsync -av --delete public/ . --exclude .git --exclude .github
+          # Sync generated site from landing/site/public to repo root
+          rsync -av --delete landing/site/public/ . --exclude .git --exclude .github
           touch .nojekyll
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
