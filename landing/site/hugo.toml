@@ -1,0 +1,4 @@
+theme = 'simple'
+baseURL = 'https://3500-team9-chrome-extension.org/'
+languageCode = 'en-us'
+title = 'Yelper'

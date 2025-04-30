@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{ $logo := default "logo.png" .Site.Params.logo }}
+  <link rel="icon" href="/images/{{ $logo }}" type="image/png">
+  <link rel="shortcut icon" href="/images/{{ $logo }}" type="image/png">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <!-- Site logo: will use .Site.Params.logo or default 'logo.png' -->
+    {{ $logo := default "logo.png" .Site.Params.logo }}
+    <a href="/" class="logo-link">
+      <img src="/images/{{ $logo }}" alt="{{ .Site.Title }} logo" class="site-logo">
+    </a>
+    <h1>{{ .Site.Title }}</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    <p>
+      &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+      <img src="/images/{{ default "logo.png" .Site.Params.logo }}" alt="{{ .Site.Title }} logo" class="site-logo footer-logo">
+    </p>
+  </footer>
+</body>
+</html>

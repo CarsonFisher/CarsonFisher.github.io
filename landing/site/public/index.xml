@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yelper</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Yelper</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>http://localhost:1313/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/features/</guid>
+      <description>&lt;h1 id=&#34;features&#34;&gt;Features&lt;/h1&gt;&#xA;&lt;p&gt;Discover why Yelper transforms the way you explore Yelp:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instant Summaries&lt;/strong&gt;&lt;br&gt;&#xA;Get concise, high-level overviews of hundreds of reviews—no more endless scrolling.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Your API, Your Control&lt;/strong&gt;&lt;br&gt;&#xA;Plug in your own OpenAI API key to manage usage, costs, and keep your data private.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Smart Dish Recommendations&lt;/strong&gt;&lt;br&gt;&#xA;AI-powered suggestions highlight the top-rated dishes and hidden gems other reviewers rave about.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pros &amp;amp; Cons at a Glance&lt;/strong&gt;&lt;br&gt;&#xA;Automatically surface the most common praises and complaints so you know what to expect.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

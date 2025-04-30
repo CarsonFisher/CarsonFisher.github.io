@@ -1,0 +1,10 @@
+{{/* Default single page template: wrap content in baseof.html, and display title */}}
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}
+    <p>{{ . }}</p>
+    {{ end }}
+    {{ .Content }}
+  </article>
+{{ end }}
