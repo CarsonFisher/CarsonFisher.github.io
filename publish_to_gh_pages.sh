@@ -5,8 +5,8 @@ set -euo pipefail
 # Usage: ./publish_to_gh_pages.sh
 # Requires: hugo installed, git configured with push access.
 
-# Configuration
-REPO_URL="https://github.com/${GITHUB_REPOSITORY}.git"
+# Configuration: your GitHub Pages repo URL
+REPO_URL="https://github.com/CarsonFisher/CarsonFisher.github.io.git"
 BRANCH="main"
 SOURCE_DIR="landing/site"
 
