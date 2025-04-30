@@ -48,6 +48,14 @@
  git submodule update --init --recursive
  ```
 
+ #### Adding Your Logo
+
+ Copy your logo image into the `landing/site/static/images` directory and rename it to `logo.png`. For example:
+
+ ```bash
+ cp "C:\Users\candl\Downloads\5baf4e7d-509e-4806-a825-478ea452eca1_removalai_preview (1).png" landing/site/static/images/logo.png
+ ```
+
  ### Local Development
 
  ```bash
