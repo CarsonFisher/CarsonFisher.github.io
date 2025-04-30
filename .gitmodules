@@ -1,0 +1,3 @@
+[submodule "themes/tabtracker"]
+	path = themes/tabtracker
+	url = https://github.com/arriellam/hugo-tabtracker.git

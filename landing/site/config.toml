@@ -7,7 +7,6 @@ theme = "simple"
  # Path to site logo file under /static/images
  [params]
    logo = "5baf4e7d-509e-4806-a825-478ea452eca1_removalai_preview.png"
-publishDir = "../../"
 
 [menu]
   [[menu.main]]
