@@ -1,35 +1,25 @@
 ---
-title: "Yelper"
-description: "Summarizes reviews and gives pros, cons, and suggestions for businesses based on yelp reviews. "
+title: "Night Planner"
+description: "Generate curated night-out plans from any restaurant URL using OpenAI's Chat Completions API."
 ---
 
-# A Cry for Yelp...
+# Plan Your Night Out…
 
-No need to scroll through dozens of yelp reviews to determine if a tire shop is trustworthy or whether a restaurant will live up to the hype. Just read our summaries and suggestions for each business you are interested in learning about. 
+Skip the planning hassle—give us a restaurant URL, and Night Planner will craft a complete evening itinerary (dessert, drinks, dancing/live music) tailored for you.
 
 ## Features
 
-Discover why Yelper transforms the way you explore Yelp:
+Key features of the Night Planner Chrome extension:
 
-- ### Instant Summaries 
-  
-  Get concise, high-level overviews of hundreds of reviews—no more endless scrolling.
+ - Manage and store your OpenAI API key directly in the extension (save, edit, cancel).
 
-- ### Your API, Your Control  
-  
-  Plug in your own OpenAI API key to manage usage, costs, and keep your data private.
+ - Input a restaurant URL to generate a concise night-out plan (Dessert, Drinks, Dancing/Live Music).
 
-- ### Smart Dish Recommendations  
-  
-  AI-powered suggestions highlight the top-rated dishes and hidden gems other reviewers rave about.
+ - Fetch recommendations via OpenAI's Chat Completions API and display formatted suggestions with place name, address, visit order, routing instructions, and rationale.
 
-- ### Pros & Cons at a Glance 
-  
-  Automatically surface the most common praises and complaints so you know what to expect.
+ - Responsive React-based popup UI built with TypeScript and Vite.
 
-- ### Sentiment Insights
-    
-  See overall sentiment trends (positive, neutral, negative) and filter reviews accordingly.
+ - Background service worker handling storage events and future context-menu integrations.
 
 ## Screenshots {#screenshots}
 
