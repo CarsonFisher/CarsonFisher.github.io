@@ -23,7 +23,7 @@ Key features of the Night Planner Chrome extension:
 
 ## Screenshots {#screenshots}
 
-![Screenshot of the UI]("\Downloads\GoldenRetriever.jpg")
+![Screenshot of the UI](/images/screenshot.png)
 
 ## Contact {#contact}
 
